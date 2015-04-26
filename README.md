@@ -1,9 +1,8 @@
-"
 # README
 
 ##Purpose
 
-   This repository is created for a course project for the course "Getting and Cleaning Data"  to demonstrate the ability to collect, work with, and clean a data set. 
+   This repository is created for a project for the course "Getting and Cleaning Data"  to demonstrate the ability to collect, work with, and clean a data set. 
 
 ##Goal
    The goal is to prepare tidy data that can be used for later analysis. 
@@ -21,11 +20,11 @@
 
 1. run_analysis.R
 
-   R script for the steps taken in the analysis to obtain the tidy data from the raw data
+  *R script for the steps taken in the analysis to obtain the tidy data from the raw data
 
 2. TidyData.txt
 
-   This file contains the tidy data (14220 x 4)  obtained from the raw data by running run_analysis.R when the raw data is the working directory. 
+  *This file contains the tidy data (14220 x 4)  obtained from the raw data by running run_analysis.R when the raw data is the working directory. 
 
 3. CodeBook.txt
 
