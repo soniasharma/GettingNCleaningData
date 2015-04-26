@@ -1,0 +1,521 @@
+* subject
+
+Subjects who participated in the experiment
+                    
+  range from 1 to 30
+
+
+
+
+* activity
+
+ Activity performed by the participant   
+
+  1  WALKING
+  2  WALKING_UPSTAIRS
+  3  WALKING_DOWNSTAIRS
+  4  SITTING
+  5  STANDING
+  6  LAYING
+
+
+
+
+* feature
+
+A 561-feature vector with time and frequency domain variables described below
+                  
+   Values are normalized and bounded within [-1,1]
+
+
+
+
+
+* mean
+
+Average of each feature variable for each activity and each subject
+                   
+   ranges from -1 to 1
+
+
+
+
+
+
+FEATURES DESCRIPTION
+
+* tbdyaccmuX
+
+Time domain signal for body acceleration -MEAN (in the X direction) 
+
+
+
+* tbdyaccmuY
+
+Time domain signal for body acceleration -MEAN (in the Y direction) 
+
+
+
+* tbdyaccmuZ
+
+Time domain signal for body acceleration -MEAN (in the Z direction) 
+
+
+
+* tbdyaccstdX
+
+Time domain signal for body acceleration -STANDARD DEVIATION (in the X direction) 
+
+
+
+* tbdyaccstdY
+
+Time domain signal for body acceleration -STANDARD DEVIATION (in the Y direction) 
+
+
+
+* tbdyaccstdZ
+
+Time domain signal for body acceleration -STANDARD DEVIATION (in the Z direction) 
+
+
+
+* tgraccmuX
+
+Time domain signal for gravity acceleration -MEAN (in the X direction) 
+
+
+
+* tgraccmuY
+
+Time domain signal for gravity acceleration -MEAN (in the Y direction) 
+
+
+
+* tgraccmuZ
+
+Time domain signal for gravity acceleration -MEAN (in the Z direction) 
+
+
+
+* tgraccstdX
+
+Time domain signal for gravity acceleration -STANDARD DEVIATION (in the X direction) 
+
+
+
+* tgraccstdY
+
+Time domain signal for gravity acceleration -STANDARD DEVIATION (in the Y direction) 
+
+
+
+* tgraccstdZ
+
+Time domain signal for gravity acceleration -STANDARD DEVIATION (in the Z direction) 
+
+
+
+* tbdyaccjkmuX
+
+Time domain signal for body acceleration due to jerk -MEAN (in the X direction) 
+
+
+
+* tbdyaccjkmuY
+
+Time domain signal for body acceleration due to jerk -MEAN (in the Y direction) 
+
+
+
+* tbdyaccjkmuZ
+
+Time domain signal for body acceleration due to jerk -MEAN (in the Z direction) 
+
+
+
+* tbdyaccjkstdX
+
+Time domain signal for body acceleration due to jerk -STANDARD DEVIATION (in the X direction) 
+
+
+
+* tbdyaccjkstdY
+
+Time domain signal for body acceleration due to jerk -STANDARD DEVIATION (in the Y direction) 
+
+
+
+* tbdyaccjkstdZ
+
+Time domain signal for body acceleration due to jerk -STANDARD DEVIATION (in the Z direction) 
+
+
+
+* tbdygymuX
+
+Time domain signal for body angular velocity -MEAN (in the X direction) 
+
+
+
+* tbdygymuY
+
+Time domain signal for body angular velocity -MEAN (in the Y direction) 
+
+
+
+* tbdygymuZ
+
+Time domain signal for body angular velocity -MEAN (in the Z direction) 
+
+
+
+* tbdygystdX
+
+Time domain signal for body angular velocity -STANDARD DEVIATION (in the X direction) 
+
+
+
+* tbdygystdY
+
+Time domain signal for body angular velocity -STANDARD DEVIATION (in the Y direction) 
+
+
+
+* tbdygystdZ
+
+Time domain signal for body angular velocity -STANDARD DEVIATION (in the Z direction) 
+
+
+
+* tbdygyjkmuX
+
+Time domain signal for body angular velocity due to jerk -MEAN (in the X direction) 
+
+
+
+* tbdygyjkmuY
+
+Time domain signal for body angular velocity due to jerk -MEAN (in the Y direction) 
+
+
+
+* tbdygyjkmuZ
+
+Time domain signal for body angular velocity due to jerk -MEAN (in the Z direction) 
+
+
+
+* tbdygyjkstdX
+
+Time domain signal for body angular velocity due to jerk -STANDARD DEVIATION (in the X direction) 
+
+
+
+* tbdygyjkstdY
+
+Time domain signal for body angular velocity due to jerk -STANDARD DEVIATION (in the Y direction) 
+
+
+
+* tbdygyjkstdZ
+
+Time domain signal for body angular velocity due to jerk -STANDARD DEVIATION (in the Z direction) 
+
+
+
+* tbdyaccmagmu
+
+Time domain signal for body acceleration : magnitude -MEAN 
+
+
+
+* tbdyaccmagstd
+
+Time domain signal for body acceleration : magnitude -STANDARD DEVIATION 
+
+
+
+* tgraccmagmu
+
+Time domain signal for gravity acceleration : magnitude -MEAN 
+
+
+
+* tgraccmagstd
+
+Time domain signal for gravity acceleration : magnitude -STANDARD DEVIATION 
+
+
+
+* tbdyaccjkmagmu
+
+Time domain signal for body acceleration due to jerk : magnitude -MEAN 
+
+
+
+* tbdyaccjkmagstd
+
+Time domain signal for body acceleration due to jerk : magnitude -STANDARD DEVIATION 
+
+
+
+* tbdygymagmu
+
+Time domain signal for body angular velocity : magnitude -MEAN 
+
+
+
+* tbdygymagstd
+
+Time domain signal for body angular velocity : magnitude -STANDARD DEVIATION 
+
+
+
+* tbdygyjkmagmu
+
+Time domain signal for body angular velocity due to jerk : magnitude -MEAN 
+
+
+
+* tbdygyjkmagstd
+
+Time domain signal for body angular velocity due to jerk : magnitude -STANDARD DEVIATION 
+
+
+
+* fbdyaccmuX
+
+Frequency domain signal for body acceleration -MEAN (in the X direction) 
+
+
+
+* fbdyaccmuY
+
+Frequency domain signal for body acceleration -MEAN (in the Y direction) 
+
+
+
+* fbdyaccmuZ
+
+Frequency domain signal for body acceleration -MEAN (in the Z direction) 
+
+
+
+* fbdyaccstdX
+
+Frequency domain signal for body acceleration -STANDARD DEVIATION (in the X direction) 
+
+
+
+* fbdyaccstdY
+
+Frequency domain signal for body acceleration -STANDARD DEVIATION (in the Y direction) 
+
+
+
+* fbdyaccstdZ
+
+Frequency domain signal for body acceleration -STANDARD DEVIATION (in the Z direction) 
+
+
+
+* fbdyaccmufreqX
+
+Frequency domain signal for body acceleration -MEAN Frequency (in the X direction) 
+
+
+
+* fbdyaccmufreqY
+
+Frequency domain signal for body acceleration -MEAN Frequency (in the Y direction) 
+
+
+
+* fbdyaccmufreqZ
+
+Frequency domain signal for body acceleration -MEAN Frequency (in the Z direction) 
+
+
+
+* fbdyaccjkmuX
+
+Frequency domain signal for body acceleration due to jerk -MEAN (in the X direction) 
+
+
+
+* fbdyaccjkmuY
+
+Frequency domain signal for body acceleration due to jerk -MEAN (in the Y direction) 
+
+
+
+* fbdyaccjkmuZ
+
+Frequency domain signal for body acceleration due to jerk -MEAN (in the Z direction) 
+
+
+
+* fbdyaccjkstdX
+
+Frequency domain signal for body acceleration due to jerk -STANDARD DEVIATION (in the X direction) 
+
+
+
+* fbdyaccjkstdY
+
+Frequency domain signal for body acceleration due to jerk -STANDARD DEVIATION (in the Y direction) 
+
+
+
+* fbdyaccjkstdZ
+
+Frequency domain signal for body acceleration due to jerk -STANDARD DEVIATION (in the Z direction) 
+
+
+
+* fbdyaccjkmufreqX
+
+Frequency domain signal for body acceleration due to jerk -MEAN Frequency (in the X direction) 
+
+
+
+* fbdyaccjkmufreqY
+
+Frequency domain signal for body acceleration due to jerk -MEAN Frequency (in the Y direction) 
+
+
+
+* fbdyaccjkmufreqZ
+
+Frequency domain signal for body acceleration due to jerk -MEAN Frequency (in the Z direction) 
+
+
+
+* fbdygymuX
+
+Frequency domain signal for body angular velocity -MEAN (in the X direction) 
+
+
+
+* fbdygymuY
+
+Frequency domain signal for body angular velocity -MEAN (in the Y direction) 
+
+
+
+* fbdygymuZ
+
+Frequency domain signal for body angular velocity -MEAN (in the Z direction) 
+
+
+
+* fbdygystdX
+
+Frequency domain signal for body angular velocity -STANDARD DEVIATION (in the X direction) 
+
+
+
+* fbdygystdY
+
+Frequency domain signal for body angular velocity -STANDARD DEVIATION (in the Y direction) 
+
+
+
+* fbdygystdZ
+
+Frequency domain signal for body angular velocity -STANDARD DEVIATION (in the Z direction) 
+
+
+
+* fbdygymufreqX
+
+Frequency domain signal for body angular velocity -MEAN Frequency (in the X direction) 
+
+
+
+* fbdygymufreqY
+
+Frequency domain signal for body angular velocity -MEAN Frequency (in the Y direction) 
+
+
+
+* fbdygymufreqZ
+
+Frequency domain signal for body angular velocity -MEAN Frequency (in the Z direction) 
+
+
+
+* fbdyaccmagmu
+
+Frequency domain signal for body acceleration : magnitude -MEAN 
+
+
+
+* fbdyaccmagstd
+
+Frequency domain signal for body acceleration : magnitude -STANDARD DEVIATION 
+
+
+
+* fbdyaccmagmufreq
+
+Frequency domain signal for body acceleration : magnitude -MEAN Frequency 
+
+
+
+* fbdybdyaccjkmagmu
+
+Frequency domain signal for body body acceleration due to jerk : magnitude -MEAN 
+
+
+
+* fbdybdyaccjkmagstd
+
+Frequency domain signal for body body acceleration due to jerk : magnitude -STANDARD DEVIATION 
+
+
+
+* fbdybdyaccjkmagmufreq
+
+Frequency domain signal for body body acceleration due to jerk : magnitude -MEAN Frequency 
+
+
+
+* fbdybdygymagmu
+
+Frequency domain signal for body body angular velocity : magnitude -MEAN 
+
+
+
+* fbdybdygymagstd
+
+Frequency domain signal for body body angular velocity : magnitude -STANDARD DEVIATION 
+
+
+
+* fbdybdygymagmufreq
+
+Frequency domain signal for body body angular velocity : magnitude -MEAN Frequency 
+
+
+
+* fbdybdygyjkmagmu
+
+Frequency domain signal for body body angular velocity due to jerk : magnitude -MEAN 
+
+
+
+* fbdybdygyjkmagstd
+
+Frequency domain signal for body body angular velocity due to jerk : magnitude -STANDARD DEVIATION 
+
+
+
+* fbdybdygyjkmagmufreq
+
+Frequency domain signal for body body angular velocity due to jerk : magnitude -MEAN Frequency 
+
+
+
+
