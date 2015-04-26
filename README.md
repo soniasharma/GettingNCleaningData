@@ -20,6 +20,7 @@
 ##Files in the repository
 
 1. run_analysis.R
+
    R script for the steps taken in the analysis to obtain the tidy data from the raw data
 
 2. TidyData.txt
@@ -28,8 +29,8 @@
 
 3. CodeBook.txt
 
-  * This file contains a description of all the variables in the tidy data set. The variables are arranged in the order they appear in the tidy data set.   
-
+  * This file contains a description of all the variables in the tidy data set.
+  * The variables are arranged in the order they appear in the tidy data set.   
   * The descriptive variable names for the features are obtained from the original features.txt file in the raw data by removing special characters like "-", "()" and multiple substitutions replacing "Acc","Body","Freq", "Gravity","Gyro", "Jerk", "Mag", "mean" with shorter yet descriptive strings "acc", "bdy", "freq","gr","gy","jk","mag", "mu", respectively.
 
 
